@@ -5,7 +5,7 @@ public class App {
 * STUDENTS NEED TO CHANGE THE PATH TO POINT TO THE DATA FILE ON THEIR LAPTOPS
 */
 private static String dataFilePath =
-"/Users/Saket/Documents/GitHub/class-java-week-8/stack-lab/demo/src/main/java/com/example/socksTestData.json";
+"/Users/Saket/Downloads/GitHub/class-java-week-8/stack-lab/demo/src/main/java/com/example/socksTestData.json";
 public static Boolean processBox(String[] box) {
 /*
 * STUDENTS NEED TO ADD CODE HERE
