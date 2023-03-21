@@ -19,12 +19,12 @@ LabTestData td = new LabTestData();
 String jsonStr = td.readJSON(dataFilePath);
 // convert data to obj
 Gson gson = new Gson();
-LabTestData testData = gson.fromJson(jsonStr, LabTestData.class);
+LabTestData TestData = gson.fromJson(jsonStr, LabTestData.class);
 // run each test
-for (int i = 0; i < testData.data.length; i += 1) {
-String[] box = testData.data[i].input;
+for (int i = 0; i < TestData.data.length; i += 1) {
+String[] box = TestData.data[i].input;
 Boolean answer = processBox(box);
-Boolean correctAnswer = testData.data[i].output;
+Boolean correctAnswer = TestData.data[i].output;
 // if answer is correct, report results
 if (answer == correctAnswer) {
 if (answer) {
