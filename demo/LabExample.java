@@ -11,9 +11,14 @@ public class LabExample {
     "/Users/Saket/Documents/GitHub/class-java/stack-lab/demo/src/main/java/com/example/socksTestData.json";
 
   public static Boolean processBox(String[] box) {
-    /*
-     * STUDENTS NEED TO ADD CODE HERE
-     */
+    public boolean testData.(int index) {
+      if ((index >= 0) && (index <= files.size() - 1)) {
+      return true; 
+     } else {
+      System.out.println("File not found.");
+      }
+     return false; 
+      }
 
     Boolean result = true;
 
